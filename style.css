@@ -1,0 +1,426 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-size: 100% 690px;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    font-weight: 900;
+}
+
+/* Header Section Css Starts Hear */
+
+
+
+/* #LogoDivB{
+
+    color: white;
+    font-size: 18px;
+    
+}
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 1;
+    }
+
+    #HeaderSection {
+        display: flex;
+        justify-content: space-between;
+       
+        padding: 20px;
+        color: white;
+        margin-top: -1%;
+    }
+
+    .signup-item {
+        display: inline-block;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px 15px;
+        position: relative;
+        margin-top: -2%;
+
+
+    } */
+
+
+/* .signup-item {
+            border: 2px solid white;
+            border-radius: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          
+    } */
+
+
+#HeaderSection {
+    width: 100%;
+    color: white;
+    margin-top: 18px;
+}
+
+#OptionDiv {
+    width: 30%;
+    /* margin: 0px 0px 0px 1100px; */
+    display: inline;
+}
+
+#LogoDiv {
+    width: 69%;
+    display: inline;
+}
+
+#LogoDiv h1 {
+    display: inline;
+    font-size: 17px;
+    margin-left: 18px;
+}
+
+#LogoDiv h1 span {
+    font-weight: 100;
+}
+
+#OptionDiv ul {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 8px
+}
+
+#OptionDiv ul li {
+    display: inline;
+    padding: 10px;
+    margin-right: 46px;
+
+}
+
+#SignUP {
+
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 5px 18px;
+    /* position: relative;
+    margin-top: -2%;
+    display: inline-block; */
+}
+
+
+#BodySection {
+
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+#BodySection h1 {
+
+    font-size: 50px;
+    font-weight: 120;
+}
+
+#BodySection p {
+    font-size: 22px;
+    margin-top: -35px;
+}
+
+/* #SignUpli{
+    font-size: 20px;
+    display: inline;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-inline: 20px;
+}
+#LearnMore{
+    font-size: 20px;
+    display: inline;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-inline: 20px;
+} */
+
+/* Apply basic styles to list items */
+#BodySection ul li {
+    display: inline-block;
+    font-size: 19px;
+
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+/* Style when hovering over the list items */
+/* #BodySection ul li:hover {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+  } */
+
+/* Style margin for list items */
+#SignUpli {
+    padding: 7px 75px;
+    color: gray;
+    background-color: white;
+
+
+}
+
+/* Style padding for list items */
+#LearnMore {
+    padding: 6px 51px;
+    margin: 10px;
+}
+
+#LearnMore:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+
+#DescripSection {
+    text-align: center;
+    background-color: white;
+    color: #747474;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 6px;
+    
+}
+#DescripSection h2 {
+    padding-top: 81px;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+   
+}
+
+#DescripSection p {
+    display: inline-block;
+    border-top: solid 2px #747474;
+    /* color: #777; */
+    /* margin: 1.5em 0 0 0; */
+    padding-top: 47px;
+    font-size: 23px;
+    /* margin-top: 0%; */
+  
+}
+#DescripSection img {
+    width: 100%;
+    margin-top: 60px;
+    /* border-radius: 6px; */
+  
+}
+
+
+
+
+#IconSection{
+    width: 70%;
+    margin: 0 auto;
+    background-color:white ;
+    margin-top: 31px ;
+    border-radius: 5px; ;
+}
+
+#IconSection Div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0%;
+    padding: 70px 0px;
+    color: #747474;
+}
+
+#IconSection Div h1 {
+    font-size: 30px;
+}
+
+#IconSection div p{
+    font-size: 18px ;
+    font-weight: 900;
+    line-height: 33px;
+    }
+
+
+
+#IconSection i{
+    font-size: 45px;
+    color:white;
+    border-radius: 100% ;
+}
+#IconDiv1 i{
+  border-right: 1px solid #747474;
+    background-color:#e89980 ;
+    padding: 23px 50px;
+}
+#IconDiv2 i{
+    border-bottom: 1px solid #747474;
+    background-color: #7fcbd8 ;
+    padding: 30px 40px;
+}
+#IconDiv3 i{
+    border-top: 1px solid #747474;
+    background-color: #98b0ba ;
+    padding: 30px 35px;
+}
+#IconDiv4 i{
+    border-left: 1px solid #747474;
+    background-color: #e5cb85 ;
+    padding: 30px 40px;
+}
+
+
+/* Mature section */
+
+#NatureSection{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 35px ;
+
+
+}
+
+#NatureSection Div{
+    width: 48% ;
+    display: inline-block ;
+    background-color: white;
+    border-radius: 6px ;
+    text-align: center;
+    padding-bottom: 52px;
+ 
+
+}
+#NatureSection Div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+#NatureSection Div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+#NatureDiv2{
+    margin-left: -7px;
+}
+#NatureDiv1{
+    margin-right: 45px;
+}
+
+#NatureSection Div h1{
+  color: #646464;
+}
+#NatureSection Div p{
+    color: #777777;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+#NatureSection Div a{
+
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #777777;
+  
+}
+/* #Footersection{
+    text-align: center;
+    width: 100%;
+    background-color: #e89980;
+    color: f9e6df#;
+    padding-bottom: 100px;
+}
+#Footersection h1{
+    font-size: 41px;
+    font-weight: 100;
+    margin: 0px 0px 19.5px;
+}
+#Footersection p{
+    font-size: 25px;
+font-weight: 100;
+} */
+/* #Footersection {} */
+
+/* Footer section starts here */
+#FooterDiv1{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #e89980;
+    color: whitesmoke;
+    height: 320px;
+   
+}
+#FooterDiv1 h1{
+    font-size: 36px;
+    font-weight: 100;
+    padding-top: 60px;
+    color: #f9e6df;
+    /* font-weight: 900; */
+}
+#FooterDiv1 p{
+    font-size: 17.33px;
+    margin-top:0px;
+}
+#FooterDiv1 form{
+
+margin-top: -13px;
+}
+#FooterDiv1 form input{
+    margin-top: 30px;
+}
+#FooterDiv1 form input{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px;
+    background-color: #eba893;
+    margin-right: 40px;
+}
+#FooterDiv1 form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    border: white;
+}
+#FooterDiv1 form button{
+    background-color: white;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 15px;
+}
+#FooterDiv2{
+  text-align: center;
+  color: #c6c6c6;
+}
+#SocialMedia i{
+    font-size: 36px;
+    margin: 0px 18px;
+    margin-top: 60px;
+}
+#FooterDiv2 div ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 23px 0px 60px 0px;
+}
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+}
+#FooterDiv2 div ul li:nth-child(2){
+    border-right: 1px solid #c6c6c6;
+}
+/* Footer section starts here */
+
+
+
+
